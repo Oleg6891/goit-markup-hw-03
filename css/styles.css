@@ -68,9 +68,7 @@ ol {
 .lgo {
   color: #2e2f42;
 }
-.lgofoot {
-  color: #f4f4fd;
-}
+
 .link {
   display: block;
   padding: 24px 0;
@@ -129,8 +127,7 @@ ol {
 }
 .title {
   max-width: 496px;
-  margin: 0 auto;
-  padding-bottom: 48px;
+  margin: 0 auto 48px auto;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -162,7 +159,6 @@ ol {
   background-color: #404bbf;
 }
 .titles {
-  text-align: center;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -171,7 +167,6 @@ ol {
   color: #2e2f42;
 }
 .text {
-  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -180,6 +175,22 @@ ol {
 .sec-team {
   padding: 120px 0;
   background-color: #f4f4fd;
+}
+.titles-team {
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text-team {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .persons {
   display: flex;
@@ -241,4 +252,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.lgofoot {
+  color: #f4f4fd;
 }
