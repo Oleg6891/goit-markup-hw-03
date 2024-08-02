@@ -32,6 +32,7 @@ ol {
   padding: 0 15px;
   margin: 0 auto;
 }
+/* Header section*/
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -48,27 +49,6 @@ ol {
   align-items: center;
   gap: 40px;
 }
-
-.hero {
-  padding: 188px 0;
-}
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.header-logo {
-  padding: 24px 0;
-  margin-right: 76px;
-}
-.lgo {
-  color: #2e2f42;
-}
-
 .link {
   display: block;
   padding: 24px 0;
@@ -82,14 +62,32 @@ ol {
 .link:focus {
   color: #404bbf;
 }
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.lgo {
+  color: #2e2f42;
+}
+
+.address {
+  font-style: normal;
+  margin-left: auto;
+}
 .ul-address {
   display: flex;
   align-items: center;
   gap: 40px;
-}
-.address {
-  font-style: normal;
-  margin-left: auto;
 }
 .info {
   display: block;
@@ -103,26 +101,10 @@ ol {
 .info:focus {
   color: #404bbf;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.strat {
-  display: flex;
-  gap: 24px;
-}
-.item {
-  width: calc((100% - 72px) / 4);
-}
+/* end Header section*/
+/* Hero section*/
 .hero {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 .title {
@@ -133,9 +115,6 @@ ol {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-}
-.sec-empty {
-  padding: 120px 0;
 }
 .btn {
   display: block;
@@ -158,7 +137,31 @@ ol {
 .btn:focus {
   background-color: #404bbf;
 }
-.titles {
+/* end Hero section*/
+/* Sec-empty section*/
+.sec-empty {
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.ul-strat {
+  display: flex;
+  gap: 24px;
+}
+.item {
+  width: calc((100% - 72px) / 4);
+}
+.titles-empty {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -166,15 +169,38 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.text {
+.text-empty {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* end Sec-empty section*/
+/* Our Team section*/
 .sec-team {
   padding: 120px 0;
   background-color: #f4f4fd;
+}
+.titled-team {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.persons {
+  display: flex;
+  gap: 24px;
+}
+.list {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+}
+.whois {
+  padding: 32px 0;
 }
 .titles-team {
   text-align: center;
@@ -192,19 +218,20 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.persons {
-  display: flex;
-  gap: 24px;
-}
-.list {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-}
-.whois {
-  padding: 32px 0;
-}
+/* end Our Team section*/
+
+/* Our Portfolio section*/
 .our-portfolio {
   padding: 120px 0 120px 0;
+}
+.titled-portfolio {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .apps {
   display: flex;
@@ -220,18 +247,23 @@ ol {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.titled {
-  margin-bottom: 72px;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
+.titles-app {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
 }
-.list {
-  background-color: #ffffff;
+.text-app {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
+/* end Our Portfolio section*/
+
+/* footer section*/
 .foot {
   background-color: #2e2f42;
   padding: 100px 0 100px 0;
@@ -256,3 +288,4 @@ ol {
 .lgofoot {
   color: #f4f4fd;
 }
+/* end footer section*/
